@@ -1,0 +1,118 @@
+body{
+    background-color: #e5f5ff;
+}
+
+.customers-page {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .header-section{
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+
+  .search-bar{
+    display: flex;
+    width: 70%;
+    background-color: white;
+    border-radius: 8px;
+    align-items: center;
+    padding: 16px;
+    justify-content: space-around;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.search-bar > input{
+    outline: none;
+    border: none;
+    padding: 0px 16px;
+    font-size: 20px;
+    background-color: transparent;
+    width: 100%;
+}
+
+.add-customer-btn{
+    cursor: pointer;
+    border-radius: 8px;
+    align-items: center;
+    display: flex;
+    width: 30%;
+    height:70px;
+    margin-left: 20px;
+    text-align: center;
+    justify-content: center;
+    background-color: #1d3645;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+  }
+
+  .add-customer-btn > p{
+    margin-left: 10px;
+    font-size: 17px;
+    height:10px;
+}
+
+.add-customer-btn:hover{
+    transition: ease all 0.4s;
+    background-color: #244356;
+}
+
+  .customer-table table {
+    width: 100%;
+    border-collapse:collapse;
+}
+
+.customer-table th,
+.customer-table td {
+    font-size: 12px;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .customer-table tbody tr:hover {
+    background-color:#ffffff;
+  }
+  
+  .customer-table .action-icons {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .customer-table .action-icons i {
+    margin: 0 5px;
+    color: #007bff;
+    cursor: pointer;
+  }
+  
+  .customer-table .action-icons i:hover {
+    color: #0056b3;
+  }
+
+  .action-btns{
+    width: 100%;
+  }
+
+  .action-btn{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+
+  .action-btn-component{
+    font-size: 50px;
+    margin: 0px 4px;
+    cursor: pointer;
+  }
+  .action-btn-component1{
+    font-size: 30px;
+    margin: 0px 4px;
+    cursor: pointer;
+  }

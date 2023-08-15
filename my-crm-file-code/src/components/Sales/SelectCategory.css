@@ -1,0 +1,35 @@
+/* AddNewSale.css (or your CSS file) */
+.select-field {
+    position: relative;
+  }
+  
+  select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px;
+    font-size: 16px;
+    width: 100%;
+    background-color: #fff;
+    cursor: pointer;
+  }
+  
+  /* Style the arrow icon */
+  .select-field::after {
+    content: '\25BC'; /* Down arrow character ▼ */
+    font-size: 12px;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    pointer-events: none;
+  }
+  
+  /* Optional: Add some hover and focus styles for the select field */
+  select:hover,
+  select:focus {
+    border-color: #555;
+  }
+  

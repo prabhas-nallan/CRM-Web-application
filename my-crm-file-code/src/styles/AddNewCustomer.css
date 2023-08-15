@@ -1,0 +1,89 @@
+.add-customer-page {
+  padding: 20px;
+  /* height: 100vh; */
+}
+
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 0px 20px;
+}
+
+.page-header h2 {
+  font-size: 1.5rem;
+  color: #000000;
+}
+
+.page-header .close-btn {
+  color: #1d3645;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.page-header .close-btn:hover {
+  color: #333333;
+}
+
+.customer-form {
+  padding: 20px;
+  height: 100vh;
+  border-radius: 4px;
+}
+
+.form-field {
+  margin-bottom: 15px;
+}
+
+.form-field label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-field input[type="text"],
+.form-field input[type="email"]
+ {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  background-color: rgba(255,255,255,0.6);
+}
+
+.form-field input[type="date"],
+.form-field input[type="datetime-local"],
+.form-field input[type="number"]
+{
+  width: 30%;
+  padding: 8px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  background-color: rgba(255,255,255,0.6);
+}
+
+.action-btns{
+    width: 50%;
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.action-btns > button{
+    padding: 16px 48px;
+    width: 200px;
+    border-radius: 8px;
+}
+.cancel{
+    outline: 2px solid #1d3645;
+    border: none;
+    background-color: white;
+}
+
+.add{
+    outline: none;
+    border: none;
+    color: white;
+    background-color: #1d3645;
+}

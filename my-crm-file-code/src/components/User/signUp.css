@@ -1,0 +1,301 @@
+ /* .registration-card {  */
+    /* background-color: rgb(188, 121, 121); */
+     /* background-image: url("../assets/bgimage1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    position: relative;
+  }
+   .navbar {
+    display: flex; 
+   background-color: white;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  
+  .logo img{
+    padding: 10px 20px;
+    width: 250px;
+    height: auto;
+  } 
+  .signup-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    color: black;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+  }
+
+  .card-part2 {
+    background-image: url('../assets/loginimg.avif');
+  
+    background-position: center;
+    color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    border-radius: 2rem;
+    border-top-left-radius: 4rem;
+    border-bottom-left-radius: 4rem;
+    height: 100%;
+  }
+
+  .card-part2 h1{
+    margin: 20px;
+  }
+  .card-part2 img{
+    width: 300px;
+    height: 100px;
+  }
+  
+  .signup-form-card {
+     display: grid; 
+     grid-template-columns: repeat(2, 1fr); 
+  
+    background-color: #EAE6F6;
+    border-radius: 4rem;
+    box-shadow: 19px -19px 23px -22px #0D2464,
+25px 0px 20px -20px #0D2464,
+0px 25px 20px -20px #0D2464,
+-25px 0px 20px -20px #0D2464
+  }
+
+  .signup-form-width{
+    width: 50%;
+  }
+
+  .login-form-width{
+    width: 75%;
+  }
+
+  .login-styles-adjust{
+    margin: 20px 0px;
+  }
+  
+  .login-form-card {
+    display: flex;
+    flex-direction: column;
+    background-color: #EAE6F6;
+    width: 40%;
+    border-radius: 3rem;
+    box-shadow: 19px -19px 23px -22px #000000,
+25px 0px 20px -20px #000000,
+0px 25px 20px -20px #000000,
+-25px 0px 20px -20px #000000
+  }
+
+  .form-styles {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+    justify-content: space-around;
+    justify-items: center;
+  }
+
+  .login-form-styles{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    justify-items: center;
+  }
+  
+  .registration-form {
+    margin: 10px;
+    padding-bottom: 5px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+  }
+.registration-form h1{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.registration-form p{
+  font-size: 5px;
+  font-family: cursive;
+}
+  .signup-details {
+    margin-left: 10px;
+    margin-bottom: 5px;
+  }
+  
+  .signup-details label {
+    font-size: 20px;
+    margin-bottom: 2px;
+    margin-left: 10px;
+  }
+
+  .signup-details input[type="text"],
+  .signup-details input[type="email"],
+  .signup-details input[type="password"],
+  .signup-details input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    border: 2px solid #0d0c0c;
+    /* border-radius: 8px; */
+    /* box-sizing: border-box;
+  }
+
+  .signup-details input[type="text"],
+  .signup-details input[type="password"]{
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    border: 2px solid #0d0c0c;
+    border-radius: 6px;
+    box-sizing: border-box;
+  }
+
+  .signup-details input[type="text"],
+  .signup-details input[type="number"]{
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    border: 2px solid #0d0c0c;
+    border-radius: 6px;
+    box-sizing: border-box;
+  }
+
+  .signup-details input[type="text"]:focus,
+  .signup-details input[type="number"]:focus{
+    outline: none;
+    border-color: #0e1515;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  .signup-details input[type="text"]:focus,
+  .signup-details input[type="email"]:focus,
+  .signup-details input[type="password"]:focus,
+  .signup-details input[type="number"]:focus {
+    outline: none;
+    border-color: #0e1515;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+
+  .signup-details input[type="text"]:focus,
+  .signup-details input[type="password"]:focus{
+    outline: none;
+    border-color: #0e1515;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  .registration-form button {
+    background-color: #0b4b90;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 4rem;
+  }
+  
+  .registration-form button:hover {
+    border: 1px solid #0b4b90;
+  }
+  
+  .registration-form p {
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 4rem;
+  } */ 
+
+
+  /* Add some basic styles to the login page */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+/*   
+  body {
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    position: relative;
+    overflow: hidden;
+    margin: 0; 
+  } */
+  .login-page {
+    /* max-width: 400px; */
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #dc4949;
+    border-radius: 4px;
+    background-image: url('../../assets/bgimage1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the form horizontally */
+    justify-content: center; /* Center the form vertically */
+    height: 100vh; /* Set the height of the login page to the full viewport height */
+    width:120%;
+  }
+  
+  h1 {
+    text-align: center;
+    color: black; /* Add white color to the heading */
+    text-shadow: 0 0 5px whitesmoke; /* Add shadow effect to the text */
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+    color: black; /* Add white color to the label text */
+  }
+  
+  input {
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    margin-top: 10px;
+    padding: 8px 20px; /* Decrease the padding for a smaller button size */
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px; /* Increase the font size for the button text */
+  }
+  .back-btn {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+  }

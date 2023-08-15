@@ -1,0 +1,92 @@
+.line-graph-btn, .send-email-btn{
+    display: flex;
+    align-items: center;
+    padding: 12px 20px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    background-color: #1d3645;
+    color: white;
+    font-size: 16px;
+    margin: 20px auto;
+    cursor: pointer;
+}
+
+.send-email-btn{
+    justify-content: space-between;
+    width: 160px;
+}
+/* Tickets Pie-Chart css */
+.chart-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+  }
+  
+
+.external{
+    width: 100%;
+    height: 95%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.internal{
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.sample{
+    height: 100%;
+    width: 100%;
+    
+}
+.line-graph{
+    display: flex;
+    flex-direction: column;
+    height:100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.line-graph1{
+    display: flex;
+    flex-direction: column;
+    height:100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.graph-size{
+    width: 250px;
+    height: 250px;
+}
+.welcome-nav-bar{
+    background-color: #1e847f;
+}
+.welcome-nav-bar h1,p{
+    padding: 15px;
+    font-weight: 900px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.dashboard-footer{
+    height: 70px;
+}
